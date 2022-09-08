@@ -13,3 +13,7 @@ Console.WriteLine(c);
 // division
 c = a / b;
 Console.WriteLine(c);
+
+// experiment
+c = a + b - 12 * 17;
+Console.WriteLine(c);
