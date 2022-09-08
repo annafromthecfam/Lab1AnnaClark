@@ -2,6 +2,8 @@
 OrderPrecedence();
 TestLimits();
 WorkWithDoubles();
+WorkWithDecimals();
+AreaOfACircle();
 
 void WorkWithIntegers()
 {
@@ -90,6 +92,8 @@ void WorkWithDoubles()
     Console.WriteLine(crazyMath);
 }
 
+void WorkWithDecimals()
+{
     decimal min = decimal.MinValue;
     decimal max = decimal.MaxValue;
     Console.WriteLine($"The range of the decimal type is {min} to {max}");
@@ -101,3 +105,11 @@ void WorkWithDoubles()
     decimal c = 1.0M;
     decimal d = 3.0M;
     Console.WriteLine(c / d);
+}
+
+void AreaOfACircle()
+{
+    double radius = 2.50;
+    double area = (radius * radius * Math.PI);
+    Console.WriteLine(area);
+}
