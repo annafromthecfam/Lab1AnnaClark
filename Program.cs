@@ -1,6 +1,7 @@
 ﻿//WorkWithIntegers();
 OrderPrecedence();
 TestLimits();
+WorkWithDoubles();
 
 void WorkWithIntegers()
 {
@@ -64,6 +65,8 @@ void TestLimits()
     Console.WriteLine($"An example of overflow: {what}");
 }
 
+void WorkWithDoubles()
+{
     double a = 5;
     double b = 4;
     double c = 2;
@@ -82,3 +85,7 @@ void TestLimits()
 
     double third = 1.0 / 3.0;
     Console.WriteLine(third);
+
+    double crazyMath = a + b - c * d / e + f - g * h / third;
+    Console.WriteLine(crazyMath);
+}
