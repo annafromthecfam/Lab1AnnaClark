@@ -89,3 +89,8 @@ void WorkWithDoubles()
     double crazyMath = a + b - c * d / e + f - g * h / third;
     Console.WriteLine(crazyMath);
 }
+
+    decimal min = decimal.MinValue;
+    decimal max = decimal.MaxValue;
+    Console.WriteLine($"The range of the decimal type is {min} to {max}");
+    
